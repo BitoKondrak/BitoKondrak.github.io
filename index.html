@@ -7,6 +7,14 @@ body {
     text-align: center;
     color: aqua;
 }
+#content {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 #background-image {
   -webkit-filter: blur(5px);
   -moz-filter: blur(5px);
@@ -37,6 +45,8 @@ input[type="submit"] {
 }
 </style></head>
 <body>
+<div id="background-image"></div>
+<div id="content">
 <img src="https://lh4.googleusercontent.com/-RnrJ8nGZZPI/AAAAAAAAAAI/AAAAAAAAAQs/QA7ByZC9Zck/s120-c/photo.jpg" height="250" width="250">
 <h3>Bernabe Kondrak</h3>
 <p> 
@@ -50,6 +60,7 @@ my very own web page! I like Mt.Everest! and playin' hockey </p>
     <div style="position: absolute; left: -5000px;"><input type="text" name="b_5650c0768bdc864b1dba11656_1bff72f6d2" value=""></div>
     <input type="submit" name="subscribe">
 </form>
+</div>
 </body>
 
 
